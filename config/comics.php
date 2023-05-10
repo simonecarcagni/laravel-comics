@@ -1,7 +1,10 @@
 <?php
 
 return [
-    [
+
+'single' => [
+
+   [
         "title" => "Action Comics #1000: The Deluxe Edition",
         "description" => "The celebration of 1,000 issues of Action Comics continues with a new, Deluxe Edition of the amazing comic that won raves when it hit comics shops in April! This hardcover includes all the stories from that issue, plus the tale by writer Paul Levitz and artist Neal Adams that appeared in the Action Comics: 80 Years Of Superman hardcover, as well as all the variant covers, design sketches by Jim Lee for Superman's new look, scripts for the stories, the original art from the lost story featuring art by Curt Swan and more! Plus: a complete reprint of the stories that started it all—the Superman stories Action Comics #1 and 2 from 1938!",
         "thumb" => "https://static.dc.com/dc/files/default_images/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?w=250",
@@ -212,4 +215,80 @@ return [
             "Joëlle Jones"
         ],
     ],
-];
+
+],
+
+'links' => [
+                [
+                    "src" => "{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}",
+                    "alt" => "BuyDigitalComics",
+                    "name" => "DIGITAL COMICS"
+                ],
+                [
+                    "src" => "buy-comics-merchandise.png",
+                    "alt" => "BuyMerchandise",
+                    "name" => "DC MERCHANDISE"
+                ],
+                [
+                    "src" => "buy-comics-subscriptions.png",
+                    "alt" => "BuySubscriptions",
+                    "name" => "SUBSCRIPTION"
+                ],
+                [
+                    "src" => "buy-comics-shop-locator.png",
+                    "alt" => "BuyShopLocator",
+                    "name" => "COMIC SHOP LOCATOR"
+                ],
+                [
+                    "src" => "buy-dc-power-visa.svg",
+                    "alt" => "BuyPowerVisa",
+                    "name" => "DC POWER VISA"
+                ],
+],
+
+'ciccios' => [
+                [
+                    "href" => "#characters",
+                    "name" => "Characters"
+                ],
+                [
+                    "href" => "#comics",
+                    "name" => "Comics"
+                ],
+                [
+                    "href" => "#movies",
+                    "name" => "Movies"
+                ],
+                [
+                    "href" => "#tv",
+                    "name" => "TV"
+                ],
+                [
+                    "href" => "#games",
+                    "name" => "Games"
+                ],
+                [
+                    "href" => "#characters",
+                    "name" => "Characters"
+                ],
+                [
+                    "href" => "#collectibles",
+                    "name" => "Collectibles"
+                ],
+                [
+                    "href" => "#videos",
+                    "name" => "Videos"
+                ],
+                [
+                    "href" => "#fans",
+                    "name" => "Fans"
+                ],
+                [
+                    "href" => "#news",
+                    "name" => "News"
+                ],
+                [
+                    "href" => "#shop",
+                    "name" => "Shop"
+                ]]
+ ];
