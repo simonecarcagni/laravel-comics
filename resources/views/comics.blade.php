@@ -43,7 +43,7 @@ Home Page
                 <ul class="d-flex h-100 justify-content-around">
                     @foreach ($links as $link)
                         <li class="h-100 d-flex align-items-center p-2">
-                            <img src="{{ $link['src'] }}" alt="{{$link['alt']}}">
+                            <img src="{{Vite::asset($link['src'])}}" alt="{{$link['alt']}}">
                             <a class="px-2" href="#">{{$link['name']}}</a>
                         </li>
                     @endforeach

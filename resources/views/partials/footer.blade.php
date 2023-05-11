@@ -44,11 +44,13 @@
             <div class="followus-container mt-3 d-flex align-items-center">
                 <h5 class="mb-3">FOLLOW US</h5>
                 <ul>
-                    <li class="d-block">
-                        <a class="icon-container" href="">
-                            <i class="fab" class=""></i>
+                    @foreach ($icons as $icon)
+                        <li class="d-block">
+                        <a class="icon-container" href="{{$icon['href']}}">
+                            <img src="{{Vite::asset($icon['path'])}}" alt="">
                         </a>
                     </li>
+                    @endforeach 
                 </ul>
             </div>
         </div>

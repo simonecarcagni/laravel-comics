@@ -220,41 +220,43 @@ return [
 
 'links' => [
                 [
-                    "src" => "{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}",
+                    "src" => "resources/img/buy-comics-digital-comics.png",
                     "alt" => "BuyDigitalComics",
                     "name" => "DIGITAL COMICS"
                 ],
                 [
-                    "src" => "buy-comics-merchandise.png",
+                    "src" => "resources/img/buy-comics-merchandise.png",
                     "alt" => "BuyMerchandise",
                     "name" => "DC MERCHANDISE"
                 ],
                 [
-                    "src" => "buy-comics-subscriptions.png",
+                    "src" => "resources/img/buy-comics-subscriptions.png",
                     "alt" => "BuySubscriptions",
                     "name" => "SUBSCRIPTION"
                 ],
                 [
-                    "src" => "buy-comics-shop-locator.png",
+                    "src" => "resources/img/buy-comics-shop-locator.png",
                     "alt" => "BuyShopLocator",
                     "name" => "COMIC SHOP LOCATOR"
                 ],
                 [
-                    "src" => "buy-dc-power-visa.svg",
+                    "src" => "resources/img/buy-dc-power-visa.svg",
                     "alt" => "BuyPowerVisa",
                     "name" => "DC POWER VISA"
                 ],
 ],
 
-'ciccios' => [
+'nav-route' => [
                 [
-                    "href" => "#characters",
+                    "href" => "characters",
                     "name" => "Characters"
                 ],
                 [
-                    "href" => "#comics",
+                    "href" => "comics",
                     "name" => "Comics"
                 ],
+            ],
+'nav-links' => [
                 [
                     "href" => "#movies",
                     "name" => "Movies"
@@ -290,5 +292,28 @@ return [
                 [
                     "href" => "#shop",
                     "name" => "Shop"
-                ]]
+                ]
+        ],
+'icons-array' =>  [
+                [
+                    "href" => "#facebook",
+                    "path" => "resources/img/footer-facebook.png"
+                ],
+                [
+                    "href" => "#twitter",
+                    "path" => "resources/img/footer-teitter.png"
+                ],
+                [
+                    "href" => "#youtube",
+                    "path" => "resources/img/footer-youtube.png"
+                ],
+                [
+                    "href" => "#pinterest",
+                    "path" => "resources/img/footer-pinterest.png"
+                ],
+                [
+                    "href" => "#location",
+                    "path" => "resources/img/footer-periscope.png"
+                ],
+            ],      
  ];

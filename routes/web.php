@@ -19,14 +19,27 @@ Route::get('/', function () {
 
     $links = config('comics.links');
 
-    return view('home', compact('comics'), compact('links'));
-})->name('home');
+    $navs = config('comics.nav-links');
+
+    $navRoutes = config('comics.nav-route');
+
+    $icons = config('comics.icons-array');
+
+    return view('comics', compact('comics', 'links', 'navs', 'icons', 'navRoutes'));
+})->name('comics');
 
 
-Route::get('description', function () {
+Route::get('characters', function () {
 
     $comics = config('comics.single');
 
+    $links = config('comics.links');
 
-    return view('description', compact('comics'));
-})->name('description');
+    $navs = config('comics.nav-links');
+
+    $navRoutes = config('comics.nav-route');
+
+    $icons = config('comics.icons-array');
+
+    return view('characters', compact('comics', 'links', 'navs', 'icons', 'navRoutes'));
+})->name('characters');

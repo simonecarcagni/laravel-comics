@@ -5,11 +5,20 @@
         </div>
         <div class="h-100 my-5">
             <ul class="h-100">
-            
+                @foreach ($navRoutes as $navRoute)
                     <li class="h-100">
-                        <a href=""></a>
+                        <a href="{{route($navRoute['href'])}}">
+                            {{$navRoute['name']}}
+                        </a>
                     </li>
-                
+                @endforeach
+                @foreach ($navs as $nav)
+                    <li class="h-100">
+                        <a href="{{$nav['href'] }}">
+                            {{$nav['name']}}
+                        </a>
+                    </li>
+                @endforeach
             </ul>
         </div>
     </div>
